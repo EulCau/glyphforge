@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "glyphforge",
+  "version": "1.0.0",
+  "name": "Glyph Forge",
+  "description": "A naming station that supports formatted renaming.",
+  "authors": ["EulCau"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["eulcau.glyphforge.GlyphForge"],
+    "client": ["eulcau.glyphforge.GlyphForgeClient"]
+  },
+  "mixins": [
+    "glyphforge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "1.21.6",
+    "fabric": "*"
+  }
+}

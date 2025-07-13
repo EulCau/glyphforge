@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:anvil" },
+    { "item": "minecraft:writable_book" }
+  ],
+  "result": {
+    "item": "glyphforge:glyph_forge",
+    "count": 1
+  }
+}
