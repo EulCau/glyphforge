@@ -54,7 +54,7 @@ public class GlyphForgeScreen extends HandledScreen<GlyphForgeScreenHandler> {
 		this.nameField.setText(currentText);
 		this.nameField.setChangedListener(this::onTextChanged);
 		this.nameField.setMaxLength(50);
-		this.nameField.setEditableColor(0xFFFFFF);
+		this.nameField.setEditableColor(0xFF0000);
 		this.addSelectableChild(this.nameField);
 		this.setInitialFocus(this.nameField);
 	}
